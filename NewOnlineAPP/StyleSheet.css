@@ -1,0 +1,71 @@
+﻿body
+{
+    
+    background-color: #666633;
+    margin:0px;
+    padding:0px;
+   
+    
+}
+.container
+{
+    width:1024px;
+    display:block;
+}
+h4, h3
+{
+    width:20%;
+    margin-left:200px;
+    padding:0px;
+    
+}
+.validsum
+{
+    width:20%;
+    margin-left:200px;
+    padding:0px;
+}
+.titlehead
+{
+    text-align:center;
+}
+.tbl1
+{    
+    width:65%;
+    margin-left:200px;
+    
+}
+.form
+{
+    margin: 10px 200px 200px 200px;
+    padding: 10px;
+    background-color: #CCCC00;
+    color: #000000;
+}
+
+.button1
+{
+    margin-left:400px;
+}
+.button2
+{
+    margin-left:10px;
+}
+
+.modalBackground
+{ 
+    background-color:Gray;
+    filter: alpha(opacity=40);
+    opacity: 0.7;    
+    
+}
+.confirm
+{
+    display:block;
+    text-align:center;   
+    font-family: 'Bodoni MT Black';
+    font-size: xx-large;
+    font-weight: normal;
+    text-transform: none;
+}
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+  <Customer>
+    <DateTime>6/1/2013 2:35:41 PM</DateTime>
+    <Name>Vaibhav Pandya</Name>
+    <Email>vaibhavp06@gma.com</Email>
+    <Comments>hello, heyyy now </Comments>
+  </Customer>
+</Customers>

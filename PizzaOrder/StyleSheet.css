@@ -1,0 +1,93 @@
+﻿body
+{
+    background-color: #FFCC66;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New' , Courier, monospace;
+}
+
+.container
+{
+    width:1024px;
+    display:block;
+}
+
+form
+{
+    margin:30px 200px 50px 200px;
+}
+.title
+{
+    border: 3px outset #000000;
+    margin-left: 5px;
+    width: 520px;
+    font-family: BatangChe;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    color: #FFCC66;
+    text-transform: none;
+    background-color: #FF6600;
+    border-radius: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    text-shadow: 3px 3px black;
+}
+.modalBackground
+{ 
+    background-color:Gray;
+    filter: alpha(opacity=40);
+    opacity: 0.7;    
+    
+}
+
+#ButtonPlace
+{
+    margin-left:10px;
+}
+.logo
+{
+    padding-left:10px;
+    padding-top:7px;
+}
+
+.nav {
+    font-family: 'Bodoni MT';
+    font-size: 20px;
+    text-decoration: none;
+    height:15px;
+    
+}
+
+a
+{
+    color:#FFCC66;
+}
+
+a:hover
+{
+    color:red;
+}
+
+ul
+{
+    border-width: 0px 0px medium 0px;
+    border-style: none ridge none ridge;
+    list-style-type: none;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    text-align: center;
+}
+li
+{
+    border-color: black;
+    border-style: none ridge none ridge;
+    float: left;
+    width: 100px;
+    height: 25px;
+    border-right-width: thin;
+    border-left-width: thin;
+    background-color: #FF6600;
+    
+}

@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Pizza Palace</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style5">
+                    <img class="logo" src="Pizza.png" align="left" style="height: 70px; width: 70px" />
+
+                    <div id="pizzatit" class="title">
+                        Pizza Palace
+                        </div>
+                    &nbsp;<!--<div id="Menubuttons" class="Menub" align="right">
+                        <br />
+                        <asp:LinkButton ID="LinkButton4" runat="server" CausesValidation="False" PostBackUrl="~/Default.aspx">Home</asp:LinkButton>&nbsp
+                        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/MenuForm.aspx" CausesValidation="False">Menu</asp:LinkButton>&nbsp
+                        <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/OrderPage.aspx" CausesValidation="False">Order</asp:LinkButton>&nbsp
+                        <asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" PostBackUrl="~/Contact.aspx">Contact Us</asp:LinkButton>
+                    </div> -->
+                    <nav>
+        <ul >
+        
+       <li class="active"> <a href="Default.aspx" class="nav">Home</a></li>
+       <li> <a href="MenuForm.aspx" class="nav"> Menu</a></li>
+        
+       <li><a href="OrderPage.aspx" class="nav">Order</a> </li>
+      <li> <a href="Contact.aspx" class="nav">Contact Us</a> </li>
+            
+           </ul>
+
+
+
+    </nav>
+                    
+                    
+                    
+                    </td> </tr> </table>
+                                <div>
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                           
+                    </div>
+                    <table class="style1">
+                        <tr>
+                            <td class="style4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style3">
+                                <div id="footer">
+                                    <hr />
+                                    Copyright Pizza Palace</div>
+                            </td>
+                        </tr>
+                    </table>
+    </div>
+    </form>
+</body>
+</html>
