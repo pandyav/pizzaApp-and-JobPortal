@@ -17,3 +17,7 @@ There are two projects in this repository
   - project is connected to an XML data file where the order will go
   
   - AJAX is used for character count
+ 
+
+Easiest way to open these in VS is to 'download zip' this entire repository and then open each 
+project file as 'open website' in VS
